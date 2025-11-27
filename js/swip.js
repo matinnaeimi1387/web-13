@@ -1,0 +1,11 @@
+window.addEventListener("load", function () {
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        centeredSlides: false,
+        clickable: true,
+        grabCursor: true,
+      },
+    });
+})

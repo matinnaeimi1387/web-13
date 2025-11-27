@@ -14,7 +14,6 @@
     }
     .about-icon {
       font-size: 2rem;
-      color: #f1c40f;
     }
      section {
       padding: 80px 0;
@@ -25,3 +24,36 @@
     #font {
       font-size: 1rem;
     }
+.img1 {
+  background: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) ;
+}
+.img {
+  width: 90px;
+  margin: 0 auto;
+}
+.bg {
+  background: inherit;
+  border: 0;
+  color: white;
+}
+.smallj {
+  font-size: 14px;
+}
+.mous {
+  cursor: grab;
+}
+.mous:active {
+  cursor: grabbing;
+}
+.w-60 {
+  width: 60%;
+}
+.w-82 {
+  width: 82%;
+}
+.w-86 {
+  width: 86%;
+}
+.b,.big {
+  font-size: 28px;
+}

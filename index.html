@@ -8,8 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/swip.css" />
   </head>
   <body>
     <header>
@@ -38,9 +40,11 @@
     <section class="h-21">
       <div class="container m-top">
         <h1 class="size">Clean.Slick.Pixel Perfect</h1>
-        <small class="d-block">
-          Illdy is a great one-page theme, perfect for developers and designers.
-        </small>
+        <small class="d-block"
+          >lldy is a great one-page theme, perfect for developers and designers
+          but also for someone who just wants a new website for his business.
+          Try it now!</small
+        >
         <a href="#" class="btn btn-warning btn-lg mt-5">Learn More</a>
         <a href="#" class="btn btn-outline-light btn-lg mt-5">Download</a>
       </div>
@@ -59,18 +63,36 @@
         </p>
         <div class="row">
           <div class="col-4 text-danger">
-           <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-danger" style="width: 60%">60%</div>
-</div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Danger example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-danger w-60">
+                60%
+              </div>
+            </div>
             <div class="about-icon mb-3 text-danger">
               <i id="font" class="fas fa-font"></i>
             </div>
             <h5>Typography</h5>
           </div>
           <div class="col-4 text-warning">
-          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-warning" style="width: 82%">82%</div>
-</div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Warning example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-warning w-82">
+                82%
+              </div>
+            </div>
 
             <div class="about-icon mb-3 text-warning">
               <i id="font" class="fas fa-paint-brush"></i>
@@ -78,11 +100,20 @@
             <h5>Design</h5>
           </div>
           <div class="col-4 text-success">
-              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar text-bg-success" style="width: 86%">86%</div>
-                </div>
-                <div class="about-icon mb-3 text-success">
-                <i id="font" class="fas fa-code"></i>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Danger example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-success w-86">
+                86%
+              </div>
+            </div>
+            <div class="about-icon mb-3 text-success">
+              <i id="font" class="fas fa-code"></i>
             </div>
             <h5>Development</h5>
           </div>
@@ -90,57 +121,165 @@
       </div>
     </section>
     <section id="projects" class="text-center">
-      <div class="container">
+      <div class="container-fluid">
         <h1>Projects</h1>
         <p>You'll love our work. Check it out!</p>
         <div class="row mt-4">
-          <div class="col-4">
+          <div class="col-3 p-0">
             <img
               src="https://colorlibhub.com/wp-content/uploads/sites/58/2016/03/front-page-project-4.jpg"
-              class="w-75 m-0"
+              class="w-100 m-0"
               alt="foto"
             />
           </div>
-          <div class="col-4">
+          <div class="col-3 p-0">
             <img
               src="https://colorlibhub.com/wp-content/uploads/sites/58/2016/03/front-page-project-1.jpg"
-              class="w-75 m-0"
+              class="w-100 m-0"
               alt="foto"
             />
           </div>
-          <div class="col-4">
+          <div class="col-3 p-0">
             <img
               src="https://colorlibhub.com/wp-content/uploads/sites/58/2016/03/front-page-project-2.jpg"
-              class="w-75 m-0"
+              class="w-100 m-0"
+              alt="foto"
+            />
+          </div>
+          <div class="col-3 p-0">
+            <img
+              src="https://colorlibhub.com/wp-content/uploads/sites/58/2016/03/front-page-project-2.jpg"
+              class="w-100 m-0"
               alt="foto"
             />
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-light text-center"></section>
+    <section class="img1">
+      <div class="container">
+        <h3 class="text-center text-white">Testimonials</h3>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide mous">
+              <div class="card m-2 pt-2 mt-3 bg">
+                <img
+                  src="images/mike-muller-127x127.jpg"
+                  class="card-img-top img rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <small class="smallj"
+                    >Awesome theme with great design and awesome support. If you
+                    don’t know how to code your own WordPress theme, but you
+                    still want a good-looking website for your business, Illdy
+                    might be exactly what you need. It is a slick theme with a
+                    lot of of features to choose from.</small
+                  >
+                  <p class="mt-1">
+                    <b>
+                    Mike Muller
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide mous">
+              <div class="card m-2 pt-2 mt-3 bg">
+                <img
+                  src="images/hombre-joven-cara-alegre-estudiante-127x127.jpg"
+                  class="card-img-top img rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <small class="smallj"
+                    >Awesome theme with great design and awesome support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from.</small
+                  >
+                  <p class="mt-1">
+                    <b>
+                    John Doe
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide mous">
+              <div class="card m-2 pt-2 mt-3 bg">
+                <img
+                  src="images/Aigars-Silkalns-127x127.jpg"
+                  class="card-img-top img rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <small class="smallj"
+                    >Awesome theme with great design and awesome support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you want and you can rest assure that no matter what device your website is viewed on – it looks great.</small
+                  >
+                  <p class="mt-1">
+                    <b>
+                    Aigars Silkalns
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide mous">
+              <div class="card m-2 pt-2 mt-3 bg">
+                <img
+                  src="images/redhead-1123645_960_720-1-127x127.jpg"
+                  class="card-img-top img rounded-circle"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <small class="smallj"
+                    >Awesome theme with great design and helpful support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you want and you can rest assure that no matter what device your website is viewed on – it looks great.</small
+                  >
+                  <p class="mt-1">
+                    <b>
+                    Jane Smith
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
     <section class="text-center">
       <div class="container">
         <h2>Services</h2>
         <p>We offer a wide range of services to meet your needs.</p>
         <div class="row mt-4">
           <div class="col-4">
-            <h5 class="text-danger">Web Design</h5>
-            <p>Creative and modern design solutions for your brand.</p>
+           <div class="about-icon big mb-3 text-danger">
+            <i class="fas fa-pencil-alt	"></i>
+            </div>
+            <h5 class="text-danger b">Web Design</h5>
+            <p class="text-secondary">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
           </div>
           <div class="col-4">
-            <h5 class="text-warning">Web Development</h5>
-            <p>Robust and scalable web development tailored to your goals.</p>
+            <div class="about-icon big mb-3 text-warning">
+            <i class="fas fa-code"></i>
+            </div>
+            <h5 class="text-warning b">Web Development</h5>
+            <p class="text-secondary">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
           </div>
           <div class="col-4">
-            <h5 class="text-purpel">SEO Analisys</h5>
-            <p>Mobile-friendly layouts that look great on any device.</p>
+            <div class="about-icon big mb-3 text-success">
+            <i class="fas fa-search"></i>
+            </div>
+            <h5 class="text-success b">SEO Analisys</h5>
+            <p class="text-secondary">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
           </div>
         </div>
       </div>
     </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/swip.js"></script>
   </body>
 </html>
